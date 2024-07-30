@@ -34,58 +34,19 @@
 }
 
 @media(min-width: 1101px) {
-    .ham-hide{
+    .ham-hide {
         display: none;
     }
 }
 
-
-
-
-
 @media(max-width: 1100px) {
-    .navbar .search {
-        display: none;
-    }
-
-    .navbar {
-        height: 4rem;
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        margin-top: 1rem;
-        position: fixed;
-        z-index: 999;
-        flex-direction: column;
-    }
-
-    .navbar .nav-content {
-        height: auto;
-        width: 56%;
-        backdrop-filter: blur(7px);
-    }
-
-    .nav-content-hide {
-        transform: scale(0);
-        display: none;
-    }
-    .navbar .nav-content ul {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        gap: 3rem;
-        padding: 1.5rem;
-        flex-direction: column;
-    }
-
     .ham {
         display: flex;
         flex-direction: column;
         gap: 5px;
         position: relative;
-        top: -320px;
-        right: -431px;
+        top: -405px;
+        right: -839px;
     }
 
     .ham div {
@@ -96,9 +57,29 @@
         /* rotate: 45deg;  */
     }
 
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 12rem;
+    }
 
+    .navbar .nav-content {
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        backdrop-filter: blur(7px);
+        position: relative;
+        top: 21px
+    }
 
-/* ######################### hero section ################ */
+    .nav-content-hide {
+        transform: scale(0);
+        display: none;
+    }
+
+    .navbar .nav-content ul {
+        flex-direction: column;
+    }
 
     .hero-main {
         padding-top: 11rem;
@@ -108,9 +89,11 @@
         height: auto;
         flex-wrap: wrap;
     }
+
     .my-projects-collage .title {
         font-size: 2.7rem;
     }
+
     .my-projects-collage .collage-text .collage-img img {
         height: 16rem;
         width: 25rem;
@@ -118,21 +101,23 @@
 
 }
 
-
-@media(max-width: 920px){
+@media(max-width: 920px) {
 
 
     .ham {
         right: -303px;
     }
+
     .my-projects-collage .collage-text .collage-img img {
         height: 13rem;
         width: 20rem;
     }
+
     .hero .intro .my-details {
         font-size: 1.3rem;
         font-weight: 500;
     }
+
     .my-projects-collage .collage-text .text {
         font-size: 1.3rem;
     }
@@ -152,10 +137,13 @@
         font-size: 1rem;
     }
 }
-@media(max-width: 700px){
+
+
+
+@media(max-width: 750px){
     .ham {
-        right: -275px;
-    }
+        right: -397px;
+      }
     .my-projects-collage .collage-text .collage-img img {
         height: 10rem;
         width: 15rem;
@@ -175,11 +163,21 @@
     }
 }
 
+
 @media(max-width: 610px){
     .chat-img, .chat-img img {
         right: -15px;
     }
+    .my-projects-collage .collage-text {
+        flex-wrap: wrap;
+    }
+    .my-projects-collage .collage-text .text {
+        max-width: 100%;
+    }
 }
+
+
+
 @media(max-width: 600px){
     .navbar .nav-content {
         width: 89%;
@@ -188,11 +186,10 @@
         font-size: 1.5rem;
         left: -15px;
     }
-    .ham {
+    /* .ham {
         right: -172px;
-        /* bottom: 54px; */
         top: -325px;
-    }
+    } */
     .pic-box {
         gap: 1rem;
     }
@@ -251,14 +248,19 @@
 
 }
 
-@media(max-width: 400px){
+
+
+@media(max-width: 440px){
+    .navbar .logo-name {
+        font-size: 1.4rem;
+      }
     .navbar .nav-content {
         position: relative;
         bottom: -19px;
     }
     .ham {
-        right: -138px;
-    }
+        right: -298px;
+      }
     .hero .pic-box .known-languages {
         width: 98%;
     }
@@ -277,4 +279,25 @@
         font-size: 1.5rem;
     }
     
+}
+@media(max-width: 355px){
+    .hero .pic-box .known-languages {
+        width: 101%;
+      }
+      .hero .pic-box .known-languages div {
+        height: 62px;
+        width: 62px;
+      }
+}
+
+
+
+/* height ******************* */
+
+
+
+@media(max-height: 769px){
+    .footer {
+        padding: 1rem 1rem;
+      }
 }
