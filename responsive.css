@@ -123,16 +123,19 @@
     }
 }
 
-@media(max-width: 830px){
+@media(max-width: 830px) {
     .my-projects-collage {
         flex-wrap: wrap;
     }
+
     .my-projects-collage .collage-text {
         width: 97%;
     }
+
     .intro {
         width: 65%;
     }
+
     .footer {
         font-size: 1rem;
     }
@@ -140,23 +143,28 @@
 
 
 
-@media(max-width: 750px){
+@media(max-width: 750px) {
     .ham {
         right: -397px;
-      }
+    }
+
     .my-projects-collage .collage-text .collage-img img {
         height: 10rem;
         width: 15rem;
     }
+
     .my-projects-collage .collage-text .text {
         font-size: 1.2rem;
     }
+
     .my-projects-collage .title {
         font-size: 2.3rem;
     }
+
     .intro {
         width: 75%;
     }
+
     .footer {
         gap: 1rem;
         padding: 1rem 1rem;
@@ -164,13 +172,17 @@
 }
 
 
-@media(max-width: 610px){
-    .chat-img, .chat-img img {
+@media(max-width: 610px) {
+
+    .chat-img,
+    .chat-img img {
         right: -15px;
     }
+
     .my-projects-collage .collage-text {
         flex-wrap: wrap;
     }
+
     .my-projects-collage .collage-text .text {
         max-width: 100%;
     }
@@ -178,67 +190,80 @@
 
 
 
-@media(max-width: 600px){
+@media(max-width: 600px) {
     .navbar .nav-content {
         width: 89%;
     }
+
     .navbar .logo-name {
         font-size: 1.5rem;
         left: -15px;
     }
+
     .pic-box {
         gap: 1rem;
     }
+
     .hero .intro .name {
         font-size: 2rem;
     }
+
     .hero .intro .name::first-letter {
         font-size: 3rem;
     }
+
     .hero .intro .my-details {
         font-size: 1.2rem;
     }
+
     .hero .intro .contact-me .contactme {
         height: 2.4rem;
         width: 8rem;
-        
+
     }
+
     .hero .intro .contact-me .linkedin {
         height: 2.4rem;
         width: 8rem;
         margin-left: 1rem;
     }
-    .chat-img, .chat-img img {
-        height: 3rem;
-        width: 3rem;
-        bottom: 38px;
-    }
+
     .chat-img .chatbox {
-        height: 20rem;
-        width: 19rem;
-    }
+        height: 18rem;
+        width: 18rem;
+        bottom: 14rem;
+        left: -231px;
+      }
+
     .intro {
         width: 100%;
     }
+
     .QS {
         right: -5px;
     }
+
     .hero .pic-box .known-languages {
         width: 96%;
     }
+
     .my-projects-collage .collage-text {
         flex-wrap: wrap;
     }
+
     .my-projects-collage .title {
         font-size: 1.7rem;
     }
+
     .my-projects-collage .collage-text .text {
         max-width: 100%;
     }
-    .collage-text1{
+
+    .collage-text1 {
         flex-wrap: wrap;
     }
-    .collage-text2{
+
+    .collage-text2 {
         flex-direction: column;
     }
 
@@ -246,44 +271,53 @@
 
 
 
-@media(max-width: 440px){
+@media(max-width: 440px) {
     .navbar .logo-name {
         font-size: 1.4rem;
-      }
+    }
+
     .navbar .nav-content {
         position: relative;
         bottom: -19px;
     }
+
     .ham {
         right: -298px;
-      }
+    }
+
     .hero .pic-box .known-languages {
         width: 98%;
     }
+
     .hero .intro .contact-me .contactme {
         font-size: 1rem;
         width: 6rem;
     }
+
     .hero .intro .contact-me .linkedin {
         width: 6rem;
     }
+
     .my-projects-collage .collage-text .text {
         font-size: 1rem;
     }
+
     .my-projects-collage .title {
         max-width: 100%;
         font-size: 1.5rem;
     }
-    
+
 }
-@media(max-width: 355px){
+
+@media(max-width: 355px) {
     .hero .pic-box .known-languages {
         width: 101%;
-      }
-      .hero .pic-box .known-languages div {
+    }
+
+    .hero .pic-box .known-languages div {
         height: 62px;
         width: 62px;
-      }
+    }
 }
 
 
@@ -292,8 +326,8 @@
 
 
 
-@media(max-height: 769px){
+@media(max-height: 769px) {
     .footer {
         padding: 1rem 1rem;
-      }
+    }
 }
